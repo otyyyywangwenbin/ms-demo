@@ -12,7 +12,6 @@
     </properties>
 
     <modules>
-        <module>eos-ms-demo-impl</module>
         <module>eos-ms-demo-common</module>
         <module>eos-ms-demo-boot</module>
         <module>eos-ms-demo-user</module>
@@ -30,6 +29,31 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <dependency>
+                <groupId>com.primeton.demo</groupId>
+                <artifactId>eos-ms-demo-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.primeton.demo</groupId>
+                <artifactId>eos-ms-demo-user</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.primeton.demo</groupId>
+                <artifactId>eos-ms-demo-product</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.primeton.demo</groupId>
+                <artifactId>eos-ms-demo-order</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>

@@ -11,13 +11,11 @@
         <dependency>
             <groupId>com.primeton.demo</groupId>
             <artifactId>eos-ms-demo-user</artifactId>
-            <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.primeton.demo</groupId>
             <artifactId>eos-ms-demo-product</artifactId>
-            <version>${project.version}</version>
         </dependency>
 
     </dependencies>
