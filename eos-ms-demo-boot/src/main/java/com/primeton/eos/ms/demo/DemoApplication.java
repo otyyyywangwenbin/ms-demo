@@ -8,8 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.scheduling.annotation.EnableAsync;
 
-import com.primeton.eos.dap.sdk.api.bizflow.EnableSDKBizflows;
-
 /**
  * @author wangwb
  *
@@ -17,7 +15,6 @@ import com.primeton.eos.dap.sdk.api.bizflow.EnableSDKBizflows;
 @SpringBootApplication
 @EnableAsync
 @EnableDiscoveryClient
-@EnableSDKBizflows
 public class DemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
