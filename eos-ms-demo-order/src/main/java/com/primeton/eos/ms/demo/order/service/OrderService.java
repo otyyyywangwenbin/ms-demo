@@ -100,7 +100,6 @@ public class OrderService extends AbstractPersistentModelService<Order> {
             if (Long.class != query.getResultType()) {
                 // 分页查询时, 会有查询总条数, 查询总条数的resultType == Long.class
                 root.fetch(Order_.owner);
-//                root.fetch(Order_.items);
                 root.fetch(Order_.items).fetch(OrderItem_.product);
             }
             if (criteria == null) {
